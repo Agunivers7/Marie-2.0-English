@@ -1,23 +1,34 @@
-# Marie-2.0-English
-A modular telegram Python bot running on python3 with an sqlalchemy database.
+# tgbot7 😎
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Spoidermon+♥️'s+Repo!;A+Powerful+Group+modular+bot!;and+all+futures!+support+me+😘!;created+by+Aadhithya🥰)
+</p>
+<center><img src="https://telegra.ph/file/39400337bda261d6d7060.jpg"></center>
+<br>
+<center><a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+  </a></center><br>
+<br>
 
-Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
+Originally a best and powerful group management bot with multiple admin features, it has evolved, becoming extremely modular and 
 simple to use.
 
-Can be found on telegram as [Marie](https://t.me/BanhammerMarie_bot).
+Can be found me on telegram as [Aadhithya](https://t.me/SpoidermonAg_bot).
 
-Marie and I are moderating a [support group](https://t.me/MarieSupport), where you can ask for help setting up your
+Spoidermon and I are moderating a [support group](https://t.me/Agunivers_backup), where you can ask for help setting up your
 bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
 I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
-Join the [news channel](https://t.me/MarieNews) if you just want to stay in the loop about new features or
+Join the [Movie channel](https://t.me/+-VTuSl1PSf8xODk1) if you just want to stay in the loop about new features or
 announcements.
 
-Alternatively, [find me on telegram](https://t.me/SonOfLars)! (Keep all support questions in the support chat, where more people can help you.)
+Alternatively, [find me on telegram](https://t.me/Spoidermon12)! (Keep all support questions in the support chat, where more people can help you.)
 
-## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Agunivers7/Marie-2.0-English)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Agunivers7/tgbot7)<br>
+There is also a [tutorial video](https://youtu.be/W6CLKrehy6w) if you want any help on creating heroku clone.
+[![telegram badge](https://img.shields.io/badge/Support-Group-30302f?style=flat&logo=telegram)](https://t.me/Agunivers_backup)
+[![telegram badge](https://img.shields.io/badge/Update-Channel-30302f?style=flat&logo=telegram)](https://t.me/+-VTuSl1PSf8xODk1)
+
+
 
 ## Starting the bot.
 
@@ -48,8 +59,8 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 570400686  # my telegram ID
-    OWNER_USERNAME = "Anandus"  # my telegram username
+    OWNER_ID = 254318997  # my telegram ID
+    OWNER_USERNAME = "Spoidermon"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
@@ -74,6 +85,7 @@ The following env variables are supported:
  - `WEBHOOK`: Setting this to ANYTHING will enable webhooks when in env mode
  messages
  - `URL`: The URL your webhook should connect to (only needed for webhook mode)
+ - `BMERNU_SCUT_SRELFTI`: No. of custom filters which can be set in each group
 
  - `SUDO_USERS`: A space separated list of user_ids which should be considered sudo users
  - `SUPPORT_USERS`: A space separated list of user_ids which should be considered support users (can gban/ungban,
